@@ -103,3 +103,116 @@
 2021-12-18 20:23 +05:00: Connected to Database
 2021-12-18 20:23 +05:00: Trying listening on 7500
 2021-12-18 20:23 +05:00: server listening on 7500
+2022-01-16 13:45 +05:00: Connected to Database
+2022-01-16 13:45 +05:00: Connected to Database
+2022-01-16 13:45 +05:00: Trying listening on 7500
+2022-01-16 13:45 +05:00: Trying listening on 7500
+2022-01-16 13:45 +05:00: server listening on 7500
+2022-01-16 13:45 +05:00: server listening on 7500
+2022-01-16 13:45 +05:00: Connected to Database
+2022-01-16 13:45 +05:00: Trying listening on 7500
+2022-01-16 13:45 +05:00: server listening on 7500
+2022-01-16 14:24 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: false, upserted: 61e3e4549231ec08ddbb4f5e },
+  value: null,
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 4, high_: 1642325076 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 4, high_: 1642325076 }
+}
+2022-01-16 14:24 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: true },
+  value: {
+    _id: 61e3e4549231ec08ddbb4f5e,
+    name: 'Student',
+    dob: null,
+    email: null,
+    firstname: 'Owais',
+    lastname: null,
+    noofsubjects: null,
+    phone: null,
+    pic: null,
+    teacher: null
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 2, high_: 1642325081 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 2, high_: 1642325081 }
+}
+2022-01-16 14:38 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: false, upserted: 61e3e7859231ec08ddbf179b },
+  value: null,
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 4, high_: 1642325893 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 4, high_: 1642325893 }
+}
+2022-01-16 14:39 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: true },
+  value: {
+    _id: 61e3e7859231ec08ddbf179b,
+    name: 'Student',
+    dob: '30-03-2000',
+    email: 'Se19-114@ssuet.edu.pk',
+    firstname: 'Hamza',
+    lastname: 'Suleman',
+    noofsubjects: null,
+    phone: '0333049930',
+    pic: 'uniform.jpg',
+    teacher: 'sundas'
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 7, high_: 1642325951 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 7, high_: 1642325951 }
+}
+2022-01-16 14:39 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: true },
+  value: {
+    _id: 61e3e7859231ec08ddbf179b,
+    name: 'Student',
+    dob: '30-03-2000',
+    email: 'Se19-114@ssuet.edu.pk',
+    firstname: 'Hamza',
+    lastname: 'Suleman',
+    noofsubjects: null,
+    phone: '0333049930',
+    pic: 'uniform.jpg',
+    teacher: 'sundas'
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 2, high_: 1642325953 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 2, high_: 1642325953 }
+}
+2022-01-16 14:39 +05:00: {
+  lastErrorObject: { n: 1, updatedExisting: true },
+  value: {
+    _id: 61e3e7859231ec08ddbf179b,
+    name: 'Student',
+    dob: '30-03-2000',
+    email: 'Se19-114@ssuet.edu.pk',
+    firstname: 'Hamza',
+    lastname: 'Suleman',
+    noofsubjects: null,
+    phone: '0333049930',
+    pic: 'uniform.jpg',
+    teacher: 'sundas'
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 3, high_: 1642325953 },
+    signature: { hash: [Binary], keyId: [Long] }
+  },
+  operationTime: Timestamp { _bsontype: 'Timestamp', low_: 3, high_: 1642325953 }
+}
