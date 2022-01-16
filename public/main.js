@@ -36,7 +36,7 @@ deleteButton.addEventListener('click', _ => {
       lastname: 'Suleman',
       dob: '30-03-2000',
       email: 'Se19-114@ssuet.edu.pk',
-      noofSubjects: '5',
+      noofSubjects: 5,
       phone: '0333049930',
       teacher: 'sundas',
       pic: 'uniform.jpg' 
